@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4 text-center text-green-600 
+    hover:text-black
+  }
+
+  button {
+      @apply text-green-800 border bg-transparent border-green-800
+      hover:bg-green-800 hover:text-white rounded-md
+  }
+
+  
+}
