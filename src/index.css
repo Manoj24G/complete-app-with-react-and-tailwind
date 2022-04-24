@@ -4,8 +4,9 @@
 
 @layer base {
   li {
-    @apply p-4 text-center text-green-600 
+    @apply p-4 text-center text-green-700 
     hover:text-black
+    active:text-black
   }
 
   button {
