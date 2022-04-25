@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="w-screen h-[60px] z-10 bg-white fixed drop-shadow-lg">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
-          <h1 className="text-base text-green-800 font-medium ml-12 sm:text-lg">
+          <h1 className="text-xl text-green-800 font-medium ml-12 sm:text-md">
             LZY
           </h1>
         </div>

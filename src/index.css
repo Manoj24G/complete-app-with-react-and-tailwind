@@ -10,8 +10,9 @@
   }
 
   button {
-      @apply text-green-800 border bg-transparent border-green-800
-      hover:bg-green-800 hover:text-white rounded-md
+      @apply text-white border bg-green-800 border-green-800 rounded-md
+      hover:bg-transparent hover:text-green-800
+      
   }
 
   
