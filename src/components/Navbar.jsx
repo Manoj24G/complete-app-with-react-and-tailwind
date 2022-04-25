@@ -8,15 +8,15 @@ const Navbar = () => {
     <div className="w-screen h-[60px] z-10 bg-white fixed drop-shadow-lg">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
-          <h1 className="text-xl text-green-800 font-medium ml-12 sm:text-md">
-            LZY
+          <h1 className="text-xl text-sky-600 font-medium ml-12 sm:text-md"><a href="#Intro">LZY</a>
+          
           </h1>
         </div>
 
         <div className="hidden md:flex pr-12 items-baseline">
           <ul className="hidden md:flex p-2 items-baseline text-center">
-            <li>Intro</li>
-            <li>Features</li>
+            <li><a href="#Intro">Intro</a></li>
+            <li><a href="#Features">Features</a></li>
             <li>Pricing</li>
             <li>Login</li>
           </ul>
@@ -39,7 +39,7 @@ const Navbar = () => {
         <li className="border-b-2 border-zinc-300 w-full text-left">Pricing</li>
         <li className="border-b-2 border-zinc-300 w-full text-left">Login</li>
         <div className="flex flex-col my-4 mx-12">
-          <button className="bg-transparent text-green-600 px-8 py-2 my-2">
+          <button className="bg-transparent text-sky-600 px-8 py-2 my-2">
             Sign Up
           </button>
         </div>

@@ -4,16 +4,17 @@
 
 @layer base {
   li {
-    @apply p-4 text-center text-green-700 
+    @apply p-4 text-center text-sky-700 
     hover:text-black
     active:text-black
   }
 
   button {
-      @apply text-white border bg-green-800 border-green-800 rounded-md
-      hover:bg-transparent hover:text-green-800
+      @apply text-white border bg-sky-600 border-sky-600 rounded-md
+      hover:bg-transparent hover:text-sky-600
       
   }
 
+  
   
 }
