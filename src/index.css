@@ -9,12 +9,16 @@
     active:text-black
   }
 
+
   button {
-      @apply text-white border bg-sky-600 border-sky-600 rounded-md
-      hover:bg-transparent hover:text-sky-600
-      
+    @apply text-white border bg-sky-600 border-sky-600 rounded-md
+      hover:bg-transparent hover:text-sky-600;
   }
 
-  
-  
+#icon {
+  @apply text-blue-600
+}
+
+
+
 }

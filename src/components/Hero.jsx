@@ -12,7 +12,7 @@ const Hero = () => {
             <button className="py-2 px-12 ml-8 mr-60 ">Get Started</button>
         </div>
         <div>
-        <img className=" ml-10 pt-5 w-100% max-h-screen" src={heroImage} alt='Image' />
+        <img className=" ml-10 pt-5 w-100% max-h-screen" src={heroImage}alt='/' />
         </div>
         <div>
 
